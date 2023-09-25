@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60); */
+}
+
+.box{
+    width: 80%;
+    height: 80%;
+    background: url(image/astronomy-1867616_1280.jpg);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rem;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.hit, .timer , .score {
+    width: 8%;
+    height: 55%;
+    padding: 4px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.bottom{
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+
+#num{
+    background-color: transparent;
+    color: #fff;
+    width: 3%;
+    height: 26px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+}
